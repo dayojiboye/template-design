@@ -28,6 +28,7 @@ nav {
 }
 
 .nav-link:hover {
+    background-color: azure;
     color: black !important;
 }
 
@@ -74,8 +75,15 @@ header {
 
 .image-holder:hover .image-caption {
     opacity: 1;
+    -webkit-animation-name: slide-up;
     animation-name: slide-up;
+    -webkit-animation-duration: 0.7s;
     animation-duration: 0.7s;
+}
+
+@-webkit-keyframes slide-up {
+    from {padding: 0;}
+    to {padding: 5%;}
 }
 
 @keyframes slide-up {
