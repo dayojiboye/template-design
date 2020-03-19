@@ -47,10 +47,6 @@ nav {
   left: 50px;
 }
 
-.navbar-nav li:hover .dropdown-menu {
-  display: block;
-}
-
 .badge-info {
     position: absolute;
     left: 10px;
