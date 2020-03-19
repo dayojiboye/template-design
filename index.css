@@ -20,6 +20,10 @@ nav {
     border-color: silver !important;
 }
 
+.nav-item {
+  position: relative;
+}
+
 .nav-link {
     color: white !important;
     font-weight: bold;
@@ -30,6 +34,21 @@ nav {
 .nav-link:hover {
     background-color: azure;
     color: black !important;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  left: -20px;
+  z-index: 999;
+}
+
+.dropdown-menu-right {
+  left: 50px;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+  display: block;
 }
 
 .badge-info {
